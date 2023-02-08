@@ -1,10 +1,12 @@
 <?php
-
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Encore\Admin\Auth\Database\Administrator;
+use Encore\Admin\Auth\Database\Role;
+use Encore\Admin\Auth\Database\Permission;
+use Encore\Admin\Auth\Database\Menu;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class AdminTablesSeeder extends Seeder
 {
